@@ -14,6 +14,6 @@ class HomeActivity : AppCompatActivity() {
 
         usernameDisplay = findViewById(R.id.usernameDisplay)
 
-        usernameDisplay.text = "Na me be this?"
+        usernameDisplay.text = intent.getStringExtra("username")
     }
 }
