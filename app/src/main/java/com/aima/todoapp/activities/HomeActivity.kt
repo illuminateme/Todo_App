@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity() {
     }
         fun openProfilePage() {
 
-            val intent: Intent = Intent(this, ProfileActivity::class.java)
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }

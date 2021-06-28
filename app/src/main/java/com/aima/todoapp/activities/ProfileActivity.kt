@@ -19,7 +19,7 @@ class ProfileActivity : AppCompatActivity() {
         binding = ActivityProfileBinding.inflate(layoutInflater)
 
      // same function as above   homeButton = findViewById(R.id.homeButton)
-        homeButton.setOnClickListener {
+        binding.homeButton.setOnClickListener {
             val anyIntent = Intent(this,HomeActivity::class.java)
             startActivity(anyIntent)
         }
